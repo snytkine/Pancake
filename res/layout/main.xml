@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="#444444">
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/hello"
+		android:gravity="center">
+	</TextView>
+	
+	<Button 
+android:layout_width="wrap_content" 
+android:id="@+id/Button03" 
+android:layout_height="wrap_content" 
+android:text="@+id/Button03">
+</Button>
+
+	
+	<TextView android:layout_height="wrap_content"
+		android:gravity="center" android:id="@+id/resultText" android:padding="10px"
+		android:layout_width="fill_parent" android:layout_marginLeft="10px"
+		android:layout_marginRight="10px" android:layout_marginTop="20px"
+		android:text="@string/textResult" android:height="50dip"
+		android:minHeight="160dip" android:background="#FFFFFF">
+	</TextView>
+
+
+
+
+
+
+
+
+	<RelativeLayout android:id="@+id/InnerRelativeLayout"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true">
+
+
+
+
+		<Button android:layout_height="wrap_content" android:id="@+id/btnPlay"
+			android:text="@string/btnPlay" android:textStyle="bold"
+			android:layout_width="wrap_content" android:textColor="#FF6600"
+			android:textSize="16dip">
+		</Button>
+
+		<Button android:layout_width="wrap_content" android:id="@+id/Button01"
+			android:layout_height="wrap_content" android:layout_toRightOf="@+id/btnPlay"
+			android:text="Win">
+		</Button>
+
+	</RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

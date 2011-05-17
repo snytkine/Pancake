@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textResult">Push Play button to start</string>
+    <string name="btnPlayHing">Push to play</string>
+    <string name="btnPlay">Play</string>
+    <string name="hello">Rock Paper Scizzors</string>
+    <string name="app_name">Pancake2</string>
+</resources>
